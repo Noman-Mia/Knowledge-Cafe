@@ -1,0 +1,53 @@
+[
+    {
+      "id": 123456,
+      "cover": "[Image URL]",
+      "title": "The Enigma of Shadows",
+      "author": "Samantha Blake",
+      "author_img": "[Image URL]",
+      "posted_date": "March 13, 2024",
+      "reading_time": 10,
+      "hashtag": ["#Mystery", "#Thriller", "#Suspense"]
+    },
+    {
+      "id": 789012,
+      "cover": "[Image URL]",
+      "title": "Echoes of Eternity",
+      "author": "Lucas Anderson",
+      "author_img": "[Image URL]",
+      "posted_date": "March 12, 2024",
+      "reading_time": 15,
+      "hashtag": ["#Fantasy", "#Adventure", "#Magic"]
+    },
+    {
+      "id": 345678,
+      "cover": "[Image URL]",
+      "title": "Whispers in the Dark",
+      "author": "Emily Hughes",
+      "author_img": "[Image URL]",
+      "posted_date": "March 11, 2024",
+      "reading_time": 12,
+      "hashtag": ["#Horror", "#Suspense", "#Gothic"]
+    },
+    {
+      "id": 901234,
+      "cover": "[Image URL]",
+      "title": "Beyond the Stars",
+      "author": "Michael Roberts",
+      "author_img": "[Image URL]",
+      "posted_date": "March 10, 2024",
+      "reading_time": 20,
+      "hashtag": ["#ScienceFiction", "#SpaceExploration", "#Aliens"]
+    },
+    {
+      "id": 567890,
+      "cover": "[Image URL]",
+      "title": "Lost in Time",
+      "author": "Jessica Patel",
+      "author_img": "[Image URL]",
+      "posted_date": "March 9, 2024",
+      "reading_time": 18,
+      "hashtag": ["#TimeTravel", "#HistoricalFiction", "#Adventure"]
+    }
+  ]
+  
