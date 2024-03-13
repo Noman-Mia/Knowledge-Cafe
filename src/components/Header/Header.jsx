@@ -1,10 +1,12 @@
-
+import profile from '../../assets/images/profile.png'
 const Header = () => {
     return (
-        <div>
-            <h1 className='text-6xl font-bold text-center'>Knowladge-Cafe</h1>
+        <div className="text-4xl font-bold flex justify-between container mx-auto
+         items-center border-b-4 m-4">
+            <h1>Knowladge-Cafe</h1>
+            <img src={profile} alt="" />
         </div>
     );
 };
 
-export default Header;
+export default Header;  

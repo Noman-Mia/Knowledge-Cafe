@@ -38,16 +38,6 @@
       "posted_date": "March 10, 2024",
       "reading_time": 20,
       "hashtag": ["#ScienceFiction", "#SpaceExploration", "#Aliens"]
-    },
-    {
-      "id": 567890,
-      "cover": "[Image URL]",
-      "title": "Lost in Time",
-      "author": "Jessica Patel",
-      "author_img": "[Image URL]",
-      "posted_date": "March 9, 2024",
-      "reading_time": 18,
-      "hashtag": ["#TimeTravel", "#HistoricalFiction", "#Adventure"]
     }
   ]
   
