@@ -1,10 +1,9 @@
 import React from 'react';
 
 const Bookmark = ({bookmark}) => {
-   const {title}=bookmark
-    return (
-        <div>
-            <h1 className='text-2xl'>{title}</h1>
+    return (     
+        <div className='bg-slate-200 p-5 m-4 rounded-xl'>
+            <h1 className='text-2xl'>{bookmark?.title}</h1>
         </div>
     );
 };

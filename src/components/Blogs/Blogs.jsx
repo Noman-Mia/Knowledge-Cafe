@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Blog from "../Blog/Blog";
-const Blogs = ({addToCart}) => {
+const Blogs = ({addToCart, markToRead}) => {
     const [blogs, setBlogs] = useState([])
     useEffect(() => {
         fetch("blogs.json")
@@ -17,6 +17,7 @@ const Blogs = ({addToCart}) => {
                 blog={blog}
                 key={blog.id}
                 addToCart={addToCart}
+                markToRead={markToRead}
                 ></Blog>)
             }
         </div>

@@ -6,18 +6,23 @@ import Header from "./components/Header/Header";
 
 function App() {
   const [bookmarks, setBookmarks] = useState([]);
+  const [readingTime, setReadingTime] = useState(0)
+
   const addToCart = (blog) => {
     const newBookmark = [...bookmarks, blog]
     setBookmarks(newBookmark)
-    console.log(newBookmark);
   };
+
+  const markToRead = time => {
+   setReadingTime(readingTime + time)
+  }
 
   return (
     <>
       <Header></Header>
-      <div className="md:flex container mx-auto">
-        <Blogs addToCart={addToCart}></Blogs>
-        <Bookmarks bookmarks={bookmarks}></Bookmarks>
+      <div className="md:flex max-w-6xl mx-auto gap-3">
+        <Blogs addToCart = {addToCart} markToRead = {markToRead}></Blogs>
+        <Bookmarks bookmarks = {bookmarks} readingTime = {readingTime}></Bookmarks>
       </div>
     </>
   );
